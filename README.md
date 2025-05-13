@@ -4,13 +4,15 @@
 ---
 
 ## Description
-The **Meal Suggestion App** is a Python-based tool designed to make meal planning and recipe discovery easy, interactive, and convenient. With this app, users can explore a "database" of recipes by searching for a specific meal, viewing the required ingredients and preparation steps, or exploring alternative meal suggestions. The app also provides the option to email recipes directly to the user’s inbox, ensuring easy access and sharing as well as saving the results.
+Smart Meal Assistant is a terminal-based Python app that helps users explore and discover recipes from a CSV-powered database. Users can search for specific meals, view step-by-step instructions and ingredients, get alternative suggestions if a match isn't found, and even email recipes directly to their inbox. Designed for simplicity and convenience, the app features robust input handling, email validation, and an engaging, conversational interface.
 
-Key features include:
+Key Features:
 
-- **Meal Search**: Users can input a desired meal, and if the recipe is available, they receive step-by-step instructions and ingredient lists.
-- **Alternative Suggestions**: If the requested meal is not in the database, the app suggests up to three random alternatives to inspire users and a fourth option, which prompt the user for their choice.
-- **Email Functionality**: Recipes can, optionally, be emailed directly to users, with email validation to ensure proper formatting.
+- Meal search with ingredient and instruction display
+- Alternative suggestions for unavailable meals
+- Optional recipe delivery via email with validation
+- CSV-based recipe storage
+- Input validation and error handling
 
 
 The app leverages libraries like pandas for efficient data handling, random for generating meal suggestions, re for email validation and smtplib for email functionality. It is designed to provide a seamless and enjoyable user experience while encouraging culinary exploration.

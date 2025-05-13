@@ -4,7 +4,7 @@
 ---
 
 ## Description
-Smart Meal Assistant is a terminal-based Python app that helps users explore and discover recipes from a CSV-powered database. Users can search for specific meals, view step-by-step instructions and ingredients, get alternative suggestions if a match isn't found, and even email recipes directly to their inbox. Designed for simplicity and convenience, the app features robust input handling, email validation, and an engaging, conversational interface.
+Smart Meal Assistant is a Python app that helps users explore and discover recipes from a CSV-powered database. Users can search for specific meals, view step-by-step instructions and ingredients, get alternative suggestions if a match isn't found, and even email recipes directly to their inbox. Designed for simplicity and convenience, the app features robust input handling, email validation, and an engaging, conversational interface.
 
 Key Features:
 
